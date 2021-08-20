@@ -122,3 +122,6 @@ models/
 
 #the template test file
 test/
+
+#PyCharm related
+.idea/
