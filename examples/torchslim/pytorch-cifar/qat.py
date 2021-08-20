@@ -1,13 +1,9 @@
-import torchslim
-import torchslim.quantizing
-import torchslim.quantizing.qat as qat
-
 import torch
-import torch.nn as nn
 import torch.nn.functional as F
-
 import torchvision
 import torchvision.transforms as transforms
+
+import torchslim.quantizing.qat as qat
 
 transform_train = transforms.Compose(
     [
