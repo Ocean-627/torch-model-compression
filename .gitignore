@@ -125,3 +125,6 @@ test/
 
 #PyCharm related
 .idea/
+
+#checkpoint
+*/checkpoint/
