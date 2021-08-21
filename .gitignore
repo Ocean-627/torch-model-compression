@@ -116,6 +116,7 @@ runs/
 checkpoint/
 checkpoints/
 models/
+dataset/
 
 #remove vscode
 .vscode/
