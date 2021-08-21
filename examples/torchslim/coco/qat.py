@@ -72,5 +72,9 @@ retinanet = model.resnet50(num_classes=trainset.num_classes(),)
 retinanet = retinanet.cuda()
 retinanet.load_state_dict(torch.load("checkpoint/retinanet/model.pt"))
 
-solver = qat.QATSolver(retinanet, config)
-solver.run()
+a,b = dataset_generator()
+print(a)
+print(b)
+
+# solver = qat.QATSolver(retinanet, config)
+# solver.run()
