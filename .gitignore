@@ -125,3 +125,6 @@ test/
 
 #PyCharm related
 .idea/
+
+#.DS_Store
+.DS_Store
