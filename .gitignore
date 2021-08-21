@@ -128,3 +128,6 @@ test/
 
 #checkpoint
 */checkpoint/
+
+#.DS_Store
+.DS_Store
